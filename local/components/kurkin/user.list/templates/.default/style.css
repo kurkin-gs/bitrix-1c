@@ -1,0 +1,51 @@
+.users-list table {
+    font-family: verdana, arial, sans-serif;
+    font-size: 11px;
+    color: #333333;
+    border-width: 1px;
+    border-color: #3A3A3A;
+    border-collapse: collapse;
+}
+
+.users-list table th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #517994;
+    background-color: #B2CFD8;
+    text-align:center;
+}
+
+.users-list table td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #517994;
+    background-color: #ffffff;
+    text-align:center;
+}
+
+.users-list form {
+    float:left;
+    margin-right:4px;
+}
+
+.users-list button {
+    height: 32px;
+    display: inline-block;
+    min-width: 100px;
+    background-color: #569cb7;
+    color: #ffffff;
+    text-align: center;
+    line-height: 34px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: none;
+}
+
+.users-list .table-wrapper {
+    margin:10px 0;
+    max-width: 100%;
+    overflow-x: scroll;
+}
